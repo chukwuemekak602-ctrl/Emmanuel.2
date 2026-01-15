@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITAN EDGE AUTOS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #F02E0A;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+        }
+
+        .hero {
+            height: 80vh;
+            background: #000 url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2025/12_04_art_basel/cover.jpg") center/cover no-repeat;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding-left: 60px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            border: none;
+            background: white;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .vehicles {
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .vehicle-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .vehicle {
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+
+        .vehicle img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #111;
+            color: #ccc;
+            padding: 40px;
+            font-size: 14px;
+        }
+
+        footer .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">TITAN EDGE AUTOS</div>
+        <nav>
+            <ul>
+                <li><a href="#">Vehicles</a></li>
+                <li><a href="#">Shopping Tools</a></li>
+                <li><a href="#">Owners</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Built for the Journey Ahead</h1>
+            <p>Explore reliable, innovative vehicles for every lifestyle.</p>
+            <button>Explore Vehicles</button>
+        </div>
+    </section>
+
+    <section class="vehicles">
+        <h2>Our Vehicles</h2>
+
+        <div class="vehicle-grid">
+            <div class="vehicle">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/2023-nissan-versa-front-three-quarters-in-motion-2-1674835242.jpg?crop=0.622xw:0.526xh;0.176xw,0.344xh&resize=700:*" alt="sedan">
+                <h3>Sedan</h3>
+                <p>Efficient and comfortable</p>
+            </div>
+
+            <div class="vehicle">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsRmWvbIKUnBA9K1C4hlkK07PJODW-PLKFT0z4cWdaA6iPCOhi" alt="SUV">
+                <h3>SUV</h3>
+                <p>Versatile and powerful</p>
+            </div>
+
+            <div class="vehicle">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUy6U2YPhpVk1OG_0aRJ_5iyU9i5KR9EHTcw&s" alt="Truck">
+                <h3>Truck</h3>
+                <p>Strong and dependable</p>
+            </div>
+
+            <div class="vehicle">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf7jop7157nBVsicEa7G7QHGaCYKloUfQtFA&s" alt="Hybrid">
+                <h3>Hybrid</h3>
+                <p>Efficiency meets innovation</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h4>Shopping Tools</h4>
+                <p>Build & Price</p>
+                <p>Search Inventory</p>
+                <p>Find a Dealer</p>
+            </div>
+
+            <div>
+                <h4>Owners</h4>
+                <p>Service & Maintenance</p>
+                <p>Manuals</p>
+                <p>Warranty</p>
+            </div>
+
+            <div>
+                <h4>About</h4>
+                <p>Our Story</p>
+                <p>Careers</p>
+                <p>Newsroom</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
